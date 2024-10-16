@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+  </head>
+  <body>
+    <h1 id="description">Inserisci un numero da 1 a 100 e provero' ad
+      indovinarlo</h1>
+    <button id="startGame">GIOCA</button>
+
+    <div id="gameDiv">
+      <p>Scrivi un numero da 1 a 100:</p>
+      <input type="number" id="userNumber" placeholder="Inserisci numero"
+        min="1" max="100">
+      <button id="guessButton">Indovina il numero che ho scritto</button>
+
+      <h1 id="result"></h1>
+      <h4 id="endGame"></h4>
+
+      <div id="buttons">
+        <button id="higher" disabled>Maggiore</button>
+        <button id="lower" disabled>Minore</button>
+        <button id="correct" disabled>Indovinato</button>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
